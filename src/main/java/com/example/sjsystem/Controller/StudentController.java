@@ -39,7 +39,7 @@ public class StudentController {
         jsonArray = JSONArray.parseArray(JSON.toJSONString(list));
         System.out.println(jsonArray);
 
-
+        System.out.println();
         //实到人数
         int count = 0;
         for(int i = 0; i < jsonArray.size(); i++)
